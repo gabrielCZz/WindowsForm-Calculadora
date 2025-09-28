@@ -71,7 +71,6 @@ namespace WindowsForm_Calculadora
             if (botao == null) return;
             string texto = botao.Text;
 
-            // normaliza os símbolos para ser utilizado internamente
             string op = texto switch
             {
                 "×" => "*",
